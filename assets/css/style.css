@@ -1184,6 +1184,18 @@ textarea.form-input::-webkit-resizer { display: none; }
 \*-----------------------------------*/
 
 /**
+ * responsive larger than 310px screen
+ */
+
+@media (min-width: 310px) {
+
+  .avatar-box img { 
+    width: 100%;
+    height: 100%; }
+}
+
+
+/**
  * responsive larger than 450px screen
  */
 
@@ -1194,7 +1206,6 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .clients-item { min-width: calc(33.33% - 10px); }
-
 
 
   /**
